@@ -33,11 +33,4 @@ public class selektion_2Test {
 
 
     }
-
-    @Test
-    public void err() {
-        System.err.print("hello again");
-        assertEquals("hello again", errContent.toString());
-    }
-
 }
